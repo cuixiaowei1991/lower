@@ -1,0 +1,132 @@
+/* ::::: http://www.sglvshi.cn/style/index.css ::::: */
+
+ul { list-style: outside none none; }
+li { list-style: outside none none; }
+.main { width: 1002px; margin: 0px auto; background-color: rgb(255, 255, 255); }
+* { margin: 0px; padding: 0px; }
+body { font-size: 12px; font-family: "宋体"; color: rgb(31, 31, 31); margin: 0px; }
+a { color: rgb(31, 31, 31); text-decoration: none; }
+a:visited { color: rgb(31, 31, 31); }
+a:hover { color: rgb(255, 144, 18); }
+img { border: 0px none; vertical-align: bottom; }
+.c_t_c_c { width: 290px; margin-left: 10px; line-height: 38px; height: 150px; margin-bottom: 6px; font-size: 14px; color: rgb(0, 0, 0); }
+.c_t_c_c li { height: 26px; background: transparent url('s3.jpg') no-repeat scroll 0px 15px; padding-left: 10px; overflow: hidden; }
+.c_t_c_c li span { float: right; color: rgb(154, 154, 154); }
+.home_left { width: 200px; float: left; margin-bottom: 10px; margin-left: 10px; margin-right: 2px; }
+.clearfix::after { content: ""; height: 0px; visibility: hidden; display: block; clear: both; }
+.clearfix::after { content: ""; height: 0px; visibility: hidden; display: block; clear: both; }
+.cl, .clear { clear: both; }
+.link { width: 990px; height: 34px; margin: 5px auto; padding-left: 10px; overflow: hidden; }
+.link span { font: bold 13px/34px "宋体"; color: rgb(62, 62, 62); }
+.link a { margin: 0px 8px; color: rgb(62, 62, 62); }
+.link a:visited { color: rgb(62, 62, 62); }
+.link a:hover { color: rgb(62, 62, 62); }
+#focus { width: 1135px; margin: 0px auto; }
+#focus { width: 1135px; height: 341px; position: relative; overflow: hidden; }
+#focus ul { position: absolute; }
+#focus ul li { height: 341px; position: relative; float: left; background: rgb(0, 0, 0) none repeat scroll 0% 0%; overflow: hidden; }
+#focus ul li img { width: 1135px; height: 341px; }
+#focus .btnBg { width: 1135px; height: 20px; position: absolute; left: 0px; bottom: 0px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+#focus .btn { height: 10px; padding: 5px 10px; position: absolute; right: 0px; bottom: 0px; text-align: right; }
+#focus .btn span { width: 25px; height: 10px; margin-left: 5px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; display: inline-block; cursor: pointer; }
+#focus .preNext { width: 45px; height: 100px; position: absolute; top: 70px; background: transparent url('sprite.png') no-repeat scroll 0px 0px; cursor: pointer; }
+#focus .pre { left: 0px; }
+#focus .next { right: 0px; background-position: right top; }
+/* ::::: http://www.sglvshi.cn/style/common.css ::::: */
+
+body { margin: 0px; padding: 0px; font-family: "瀹嬩綋"; font-size: 12px; color: rgb(51, 51, 51); background: rgb(243, 243, 243) none repeat scroll 0% 0%; }
+h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, div, img, label, iframe, input, form, textarea, table, tr, td { margin: 0px; padding: 0px; list-style: outside none none; border: medium none; }
+a:link, a:visited { color: rgb(51, 51, 51); text-decoration: none; }
+a:hover { text-decoration: underline; color: rgb(255, 86, 1); }
+.clear { clear: both; }
+.w1003px { width: 1003px; margin: 0px auto; }
+.comBg { background: transparent url('icon.png') no-repeat scroll 0px 0px; font-size: 24px; font-family: Microsoft Yahei; color: rgb(45, 25, 15); font-weight: normal; }
+/* ::::: http://www.sglvshi.cn/style/index1.css ::::: */
+
+#top { height: 32px; border-bottom: 1px solid rgb(222, 222, 222); background: rgb(243, 243, 243) none repeat scroll 0% 0%; }
+.topBox ul { height: 33px; line-height: 33px; float: right; }
+.topBox li { float: right; margin-right: 5px; color: rgb(45, 25, 15); }
+#header { height: 100px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.headerBox { padding-top: 14px; position: relative; }
+.logo_ln { font-size: 50px; font-family: Microsoft Yahei; color: rgb(45, 25, 15); float: left; }
+.logo_bl { float: left; padding-top: 5px; margin-left: 5px; }
+.logo_bl h1 { font-size: 28px; font-weight: normal; font-family: Microsoft Yahei; color: rgb(96, 53, 32); display: block; height: 33px; overflow: hidden; }
+.logo_bl em { font-size: 18px; font-family: Microsoft Yahei; color: rgb(129, 129, 129); font-style: normal; display: block; height: 22px; }
+.logo_s { color: rgb(152, 51, 0); font-weight: normal; }
+.mobile { position: absolute; background: transparent url('tel.jpg') no-repeat scroll left center; padding-left: 62px; font-size: 30px; font-family: Arial,Helvetica,sans-serif; color: rgb(204, 68, 0); height: 52px; line-height: 52px; top: 23px; right: 0px; }
+#nav { width: 100%; height: 56px; background: rgb(45, 25, 15) none repeat scroll 0% 0%; }
+.navBox { height: 50px; line-height: 50px; margin: 0px auto; width: 1003px; }
+.navBox li { float: left; }
+.navBox a:link, .navBox a:visited { display: inline-block; height: 56px; width: 124px; text-align: center; font-size: 16px; font-family: Microsoft Yahei; color: rgb(255, 255, 255); }
+.navBox a:hover, .navBox a.cur:link, .navBox a.cur:visited { background: rgb(96, 53, 32) none repeat scroll 0% 0%; text-decoration: none; }
+.aboutLeft { width: 480px; height: 320px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; float: left; padding: 40px 0px 0px 40px; }
+.aboutLeft h3 { background-position: 0px -81px; width: 150px; height: 34px; padding-left: 0px; line-height: 34px; }
+.leftCon { height: 267px; margin-top: 20px; }
+.leftCon p { float: left; }
+.photo { background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.photo img { width: 170px; height: 200px; padding: 1px; background-color: rgb(255, 255, 255); border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1); }
+.lawInfo { font-size: 14px; line-height: 30px; padding: 10px 0px 0px 20px; }
+.lawInfo span { font-weight: bold; color: rgb(148, 58, 16); }
+.aboutRight { width: 423px; margin-left: 20px; height: 320px; float: right; padding: 40px 0px 0px 40px; }
+.aboutRight h3 { background-position: 0px -125px; width: 150px; height: 37px; padding-left: 0px; line-height: 37px; }
+.aboutRight ul { margin-top: 20px; width: 378px; border-bottom: 1px dashed rgb(204, 204, 204); padding-bottom: 10px; overflow: hidden; }
+.aboutRight li { height: 25px; background: transparent url('s3.jpg') no-repeat scroll left 3px; padding-left: 15px; float: left; width: 174px; }
+.aboutRight p { width: 378px; line-height: 30px; margin-top: 20px; font-size: 14px; position: relative; }
+.lawDetail { position: absolute; right: 0px; bottom: 0px; }
+.lawDetail a:link, .lawDetail a:visited { color: rgb(96, 53, 32); }
+#link { padding: 20px 0px; background: rgb(243, 243, 243) none repeat scroll 0% 0%; overflow: hidden; border-top: 1px dashed rgb(66, 22, 10); }
+#footer { height: 195px; background: rgb(66, 22, 10) none repeat scroll 0% 0%; }
+.footerBox { padding-top: 30px; height: 165px; }
+.footerBox p { color: rgb(229, 229, 229); text-align: center; line-height: 24px; }
+.statement { width: 822px; margin: 20px auto 0px; line-height: 24px; }
+.footerBox p a:link, .footerBox p a:visited { color: rgb(255, 86, 1); }
+/* ::::: http://www.sglvshi.cn/style/index.css ::::: */
+
+ul { list-style: outside none none; }
+li { list-style: outside none none; }
+.main { width: 1002px; margin: 0px auto; background-color: rgb(255, 255, 255); }
+* { margin: 0px; padding: 0px; }
+body { font-size: 12px; font-family: "宋体"; color: rgb(31, 31, 31); margin: 0px; }
+a { color: rgb(31, 31, 31); text-decoration: none; }
+a:visited { color: rgb(31, 31, 31); }
+a:hover { color: rgb(255, 144, 18); }
+img { border: 0px none; vertical-align: bottom; }
+.c_t_c_c { width: 290px; margin-left: 10px; line-height: 38px; height: 150px; margin-bottom: 6px; font-size: 14px; color: rgb(0, 0, 0); }
+.c_t_c_c li { height: 26px; background: transparent url('s3.jpg') no-repeat scroll 0px 15px; padding-left: 10px; overflow: hidden; }
+.c_t_c_c li span { float: right; color: rgb(154, 154, 154); }
+.home_left { width: 200px; float: left; margin-bottom: 10px; margin-left: 10px; margin-right: 2px; }
+.clearfix::after { content: ""; height: 0px; visibility: hidden; display: block; clear: both; }
+.clearfix::after { content: ""; height: 0px; visibility: hidden; display: block; clear: both; }
+.cl, .clear { clear: both; }
+.link { width: 990px; height: 34px; margin: 5px auto; padding-left: 10px; overflow: hidden; }
+.link span { font: bold 13px/34px "宋体"; color: rgb(62, 62, 62); }
+.link a { margin: 0px 8px; color: rgb(62, 62, 62); }
+.link a:visited { color: rgb(62, 62, 62); }
+.link a:hover { color: rgb(62, 62, 62); }
+#focus { width: 1135px; margin: 0px auto; }
+#focus { width: 1135px; height: 341px; position: relative; overflow: hidden; }
+#focus ul { position: absolute; }
+#focus ul li { height: 341px; position: relative; float: left; background: rgb(0, 0, 0) none repeat scroll 0% 0%; overflow: hidden; }
+#focus ul li img { width: 1135px; height: 341px; }
+#focus .btnBg { width: 1135px; height: 20px; position: absolute; left: 0px; bottom: 0px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+#focus .btn { height: 10px; padding: 5px 10px; position: absolute; right: 0px; bottom: 0px; text-align: right; }
+#focus .btn span { width: 25px; height: 10px; margin-left: 5px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; display: inline-block; cursor: pointer; }
+#focus .preNext { width: 45px; height: 100px; position: absolute; top: 70px; background: transparent url('sprite.png') no-repeat scroll 0px 0px; cursor: pointer; }
+#focus .pre { left: 0px; }
+#focus .next { right: 0px; background-position: right top; }
+.STYLE1 { color: rgb(204, 68, 0); }
+/* ::::: http://bdimg.share.baidu.com/static/api/css/slide_share.css?v=9c50d088.css ::::: */
+
+.bdshare-slide-button-box { height: 326px; position: fixed; overflow: visible; }
+.bdshare-slide-button-box .bdshare-slide-button { width: 24px; height: 88px; display: block; position: absolute; top: 58px; }
+.bdshare-slide-style-r5 .bdshare-slide-button { background: transparent url('r5.gif') no-repeat scroll 0px 0px; }
+.bdshare-slide-list-box { border: 1px solid rgb(233, 233, 233); text-align: left; overflow: hidden; background: rgb(246, 246, 246) none repeat scroll 0% 0%; }
+.bdshare-slide-top { height: 28px; color: rgb(98, 98, 98); overflow: hidden; font-weight: bold; font-size: 14px; line-height: 28px; padding: 0px 5px; }
+.bdshare-slide-list { padding: 5px 0px; margin: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; overflow-y: auto; overflow-x: hidden; }
+.bdshare-slide-list-ul { padding: 0px; margin: 0px; border: 0px none; list-style: outside none none; }
+.bdshare-slide-bottom { line-height: 25px; font-size: 12px; text-align: right; clear: both; height: 30px; }
+.bdshare-slide-bottom a { color: rgb(153, 153, 153); text-decoration: none; border: 0px none; float: right; }
+.bdshare-slide-bottom a:hover { color: rgb(0, 169, 224); }
+.bdshare-slide-list a, .bdshare-slide-bottom a { color: rgb(86, 86, 86); font: 12px/18px "瀹嬩綋"; display: block; background-image: url('icons_0_16.png'); background-repeat: no-repeat; padding: 5px 0px 5px 28px; text-decoration: none; border: 1px solid rgb(255, 255, 255); }
+.slide-more { background-position: 4px 5px; }
+.bdshare-slide-bottom .slide-more { border: medium none; margin-right: 10px; }
